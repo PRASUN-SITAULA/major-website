@@ -29,8 +29,12 @@ export default function TeamMembers() {
               className="bg-white shadow-md hover:shadow-lg transition-shadow"
             >
               <CardHeader className="flex flex-col items-center">
-                <Avatar className="w-24 h-24">
-                  <AvatarImage src={member.avatar} alt={member.name} />
+                <Avatar className="w-24 h-24 border-4 border-blue-500 rounded-full">
+                  <AvatarImage
+                    src={member.avatar}
+                    alt={member.name}
+                    className="rounded-full"
+                  />
                   <AvatarFallback>{member.name[0]}</AvatarFallback>
                 </Avatar>
                 <CardTitle className="mt-4 text-xl font-semibold">
