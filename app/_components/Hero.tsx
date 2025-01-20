@@ -11,10 +11,9 @@ export default function Hero() {
         <Image
           src={`/fabric.jpg`}
           alt="Fabric Simulation Logo"
-          layout="fill" // Ensures the image covers the entire container
           objectFit="cover" // Ensures the image scales correctly within the container
-          objectPosition="center" // Centers the image
           className="backdrop-blur-lg"
+          fill={true}
         />
       </div>
 

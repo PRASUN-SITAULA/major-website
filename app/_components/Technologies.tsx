@@ -34,7 +34,7 @@ export default function Technologies() {
           {technologies.map((tech, index) => (
             <Card
               key={index}
-              className={`bg-${tech.color}-50 shadow-md hover:shadow-lg transition-shadow`}
+              className={`bg-blue-50 rounded-lg border-4 border-blue-200`}
             >
               <CardHeader>
                 <CardTitle
