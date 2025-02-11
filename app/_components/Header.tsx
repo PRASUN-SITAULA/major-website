@@ -8,15 +8,19 @@ export default function Header() {
     },
     {
       name: "Overview",
-      href: "#overview",
+      href: "/#overview",
     },
     {
       name: "Team",
-      href: "#team",
+      href: "/#team",
     },
     {
       name: "Technologies",
-      href: "#technologies",
+      href: "/#technologies",
+    },
+    {
+      name: "Methodology",
+      href: "/methodology",
     },
     {
       name: "Progress",
